@@ -1,0 +1,9 @@
+Raw rows: 100000
+After removing exact duplicate rows: 100000
+Rows dropped (missing Transaction_ID/Customer_ID/Product_Name/Payment_Method): 9564
+Rows dropped (duplicate Transaction_ID): 0
+Final cleaned row count: 89442
+Invalid/missing dates retained as NaT: 61032 (68.2%)
+Missing Price (kept, excluded from revenue/price stats): 29900
+Missing Quantity: 4444
+Missing Transaction_Status: 14880

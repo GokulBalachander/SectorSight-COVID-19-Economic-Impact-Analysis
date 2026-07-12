@@ -1,0 +1,56 @@
+Model dataset rows: 47231
+Training samples: 37784  Test samples: 9447
+
+==================================================
+Logistic Regression
+Accuracy: 0.5996
+
+              precision    recall  f1-score   support
+
+   Completed       0.60      1.00      0.75      5664
+      Failed       0.00      0.00      0.00      1884
+     Pending       0.00      0.00      0.00      1899
+
+    accuracy                           0.60      9447
+   macro avg       0.20      0.33      0.25      9447
+weighted avg       0.36      0.60      0.45      9447
+
+
+==================================================
+Decision Tree
+Accuracy: 0.5991
+
+              precision    recall  f1-score   support
+
+   Completed       0.60      1.00      0.75      5664
+      Failed       0.27      0.00      0.00      1884
+     Pending       0.50      0.00      0.00      1899
+
+    accuracy                           0.60      9447
+   macro avg       0.46      0.33      0.25      9447
+weighted avg       0.51      0.60      0.45      9447
+
+
+==================================================
+Random Forest
+Accuracy: 0.5073
+
+              precision    recall  f1-score   support
+
+   Completed       0.60      0.77      0.67      5664
+      Failed       0.21      0.12      0.15      1884
+     Pending       0.19      0.12      0.14      1899
+
+    accuracy                           0.51      9447
+   macro avg       0.33      0.33      0.32      9447
+weighted avg       0.44      0.51      0.46      9447
+
+
+Feature Importances (Random Forest):
+Price             0.352228
+Revenue           0.348813
+Quantity          0.152839
+Product_Name      0.047739
+Month             0.042030
+Year              0.030499
+Payment_Method    0.025853

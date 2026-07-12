@@ -1,0 +1,12 @@
+{
+  "total_rows": 89442,
+  "total_revenue": 5568709055.59,
+  "avg_transaction_value": 98427.08,
+  "top_product_by_revenue": "Tablet",
+  "top_product_revenue": 1132297335.75,
+  "completed_pct": 49.9,
+  "pending_pct": 16.7,
+  "failed_pct": 16.8,
+  "top_payment_method": "Credit Card",
+  "date_coverage_pct": 31.8
+}
