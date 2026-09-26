@@ -6,9 +6,7 @@
 
 ## 1. Project Question
 
-Can we clean a messy, real-world-style transactions dataset into something usable, extract meaningful
-revenue/behavior insights, and then predict whether a transaction will end up **Completed**, **Pending**,
-or **Failed** based on its attributes (product, price, quantity, payment method, timing)?
+How did COVID-19 affect certain markets and sectors within the US economy?
 
 ## 2. Data Cleaning
 
